@@ -21,7 +21,7 @@ This project uses NLP (starting with regex, later with spaCy/Legal-BERT) to iden
 
 You can run this project directly in Google Colab:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OutsideRebelBox/AI-Contract-Clause-Identifier/blob/main/demo.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OutsideRebelBox/AI-Contract-Clause-Identifier/blob/main/notebooks/demo.ipynb)
 
 ---
 
