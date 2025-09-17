@@ -1,9 +1,7 @@
 {
-  "clauses": [
-    "indemnification",
-    "limitation of liability",
-    "warranty",
-    "termination",
-    "confidentiality"
-  ]
+  "indemnification": "\\bindemnif(y|ication)\\b|hold harmless|defend and indemnify",
+  "limitation of liability": "\\blimitation of liability\\b|liability (?:shall not|will not|is not) exceed|consequential damages",
+  "warranty": "\\bwarrant(?:y|ies)\\b|merchantability|fitness for a particular purpose|free from defects",
+  "termination": "\\btermination\\b|terminate (?:for|upon)|material breach",
+  "confidentiality": "\\bconfidential(?:ity)?\\b|non[- ]disclosure|trade secrets?"
 }
