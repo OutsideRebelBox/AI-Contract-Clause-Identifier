@@ -67,7 +67,7 @@ The project now includes a full **JavaScript + TypeScript implementation** for c
 ```
 ### ▶️ Run the Browser Demo Locally
 
-1. Open `js/demo/index.html` in any browser  
+1. Download `js/demo/index.html` in any browser  
 2. Upload a `.txt`, `.docx`, or `.pdf` file (must be text-extractable)  
 3. Click **Scan**  
 4. High-risk clauses will be highlighted automatically  
