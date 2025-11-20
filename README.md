@@ -58,7 +58,7 @@ The project now includes a full **JavaScript + TypeScript implementation** for c
 /js
  ├── src
  │    ├── detectClauses.js
- │     ├── clauses.json
+ │    ├── clauses.json
  │    └── detectClauses.ts
  └── demo
       ├── index.html
