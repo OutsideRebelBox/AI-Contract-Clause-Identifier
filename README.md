@@ -43,37 +43,32 @@ You can run this project directly in Google Colab:
 
 ---
 
-🟦 JavaScript & TypeScript Support
+## 💻 JavaScript & TypeScript Support
 
-The project now includes a full JavaScript + TypeScript implementation for clause detection.
+The project now includes a full **JavaScript + TypeScript implementation** for clause detection.
 
-✔️ Features
+### ✔️ Features
+- Browser-based scanner  
+- Node-compatible script  
+- Shared pattern file (`clauses.json`)  
+- Upload → Scan → Highlight high-risk clauses  
 
-Browser-based scanner
-
-Node-compatible script
-
-Shared pattern file (clauses.json)
-
-Upload → Scan → Highlight high-risk clauses
-
-📁 File Structure
+## 📁 File Structure
+```text
 /js
-  ├── src
-  │     ├── detectClauses.js
-  │     ├── detectClauses.ts
-  │     └── clauses.json
-  └── demo
-        ├── index.html
-        ├── styles.css
-        └── app.js
+ ├── src
+ │    ├── detectClauses.js
+ │     ├── clauses.json
+ │    └── detectClauses.ts
+ └── demo
+      ├── index.html
+      ├── styles.css
+      └── app.js
+```
+### ▶️ Run the Browser Demo Locally
 
-▶️ Run the Browser Demo Locally
+1. Open `js/demo/index.html` in any browser  
+2. Upload a `.txt`, `.docx`, or `.pdf` file (must be text-extractable)  
+3. Click **Scan**  
+4. High-risk clauses will be highlighted automatically  
 
-Open /js/demo/index.html in any browser
-
-Upload a .txt, .docx, or .pdf file (text must be extractable)
-
-Click Scan
-
-High-risk clauses will be highlighted automatically
