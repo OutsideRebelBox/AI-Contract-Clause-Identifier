@@ -40,3 +40,38 @@ You can run this project directly in Google Colab:
 |------|--------|-----------|---------|
 | `NDA.docx` | confidentiality | 12 | “The parties agree to keep confidential…” |
 | `MSA.pdf`  | limitation of liability | 18 | “Liability shall not exceed fees paid…” |
+
+---
+
+🔹 JavaScript & TypeScript Support
+
+The project now includes a full JavaScript + TypeScript implementation for clause detection.
+
+Features:
+
+Browser-based scanner
+
+Node-compatible script
+
+Shared pattern file (clauses.json)
+
+Upload → Scan → Highlight high-risk clauses
+
+File Structure:
+/js
+  /src
+    detectClauses.js
+    detectClauses.ts
+    clauses.json
+  /demo
+    index.html
+    styles.css
+    app.js
+
+
+To run the browser demo locally:
+
+Open js/demo/index.html in a browser
+Upload a .txt/.docx/.pdf (text extracted)
+Click "Scan"
+
