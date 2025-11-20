@@ -1,1 +1,28 @@
+{
+  "indemnification": [
+    "indemnify",
+    "hold harmless",
+    "defend.*claims",
+    "losses and damages"
+  ],
+  "limitation_of_liability": [
+    "limitation of liability",
+    "liability shall not exceed",
+    "caps.*liability"
+  ],
+  "warranty": [
+    "warranty",
+    "merchantability",
+    "fitness for a particular purpose"
+  ],
+  "termination": [
+    "may terminate.*upon",
+    "breach.*terminate"
+  ],
+  "confidentiality": [
+    "confidential information",
+    "non-disclosure",
+    "shall not disclose"
+  ]
+}
 
